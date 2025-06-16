@@ -2,57 +2,88 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>Daftar Buku</title>
-    <style>
-      table {
-        border-collapse: collapse;
-        width: 60%;
-        margin: 20px auto;
-      }
-      th,
-      td {
-        border: 1px solid #999;
-        padding: 8px 12px;
-        text-align: left;
-      }
-      th {
-        background-color: #f2f2f2;
-      }
-      caption {
-        font-size: 1.5em;
-        margin-bottom: 10px;
-      }
-    </style>
+    <title>Halaman Profil Biodata</title>
   </head>
   <body>
-    <table>
-      <caption>
-        Daftar Buku
-      </caption>
-      <thead>
-        <tr>
-          <th>Judul Buku</th>
-          <th>Nomor Buku</th>
-          <th>Harga</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Belajar HTML & CSS</td>
-          <td>001</td>
-          <td>Rp50.000</td>
-        </tr>
-        <tr>
-          <td>Pemrograman PHP</td>
-          <td>002</td>
-          <td>Rp65.000</td>
-        </tr>
-        <tr>
-          <td>JavaScript untuk Pemula</td>
-          <td>003</td>
-          <td>Rp70.000</td>
-        </tr>
-      </tbody>
+    <!-- SECTION 1: MENU -->
+    <table border="1" width="100%">
+      <tr>
+        <td align="center"><a href="#home">Beranda</a></td>
+        <td align="center"><a href="#biodata">Biodata</a></td>
+        <td align="center"><a href="#portofolio">Portofolio</a></td>
+        <td align="center"><a href="#kontak">Kontak</a></td>
+      </tr>
+    </table>
+
+    <!-- SECTION 2: JUDUL & GAMBAR -->
+    <table border="1" width="100%" style="margin-top: 10px">
+      <tr>
+        <td width="50%" align="center">
+          <h2>Halo, saya Satya Pranata</h2>
+          <p>Mahasiswa Sistem Informasi</p>
+        </td>
+        <td width="50%" align="center">
+          <img src="https://via.placeholder.com/200" alt="Foto Profil" />
+        </td>
+      </tr>
+    </table>
+
+    <!-- SECTION 3: BIODATA -->
+    <a name="biodata"></a>
+    <h3 align="center">Biodata</h3>
+    <table border="1" width="100%">
+      <tr>
+        <td>Nama</td>
+        <td>:</td>
+        <td>Satya Pranata</td>
+      </tr>
+      <tr>
+        <td>NIM</td>
+        <td>:</td>
+        <td>210030261</td>
+      </tr>
+      <tr>
+        <td>Prodi</td>
+        <td>:</td>
+        <td>Sistem Informasi</td>
+      </tr>
+      <tr>
+        <td>Tempat, Tanggal Lahir</td>
+        <td>:</td>
+        <td>Denpasar, 1 Januari 2001</td>
+      </tr>
+      <tr>
+        <td>Alamat</td>
+        <td>:</td>
+        <td>Jl. Raya Kerobokan No. 123</td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td>:</td>
+        <td>satya@example.com</td>
+      </tr>
+    </table>
+
+    <!-- SECTION 4: PORTOFOLIO -->
+    <a name="portofolio"></a>
+    <h3 align="center">Portofolio</h3>
+    <table border="1" width="100%">
+      <tr>
+        <th>Proyek</th>
+        <th>Deskripsi</th>
+      </tr>
+      <tr>
+        <td>Website Koperasi</td>
+        <td>Sistem informasi simpan pinjam berbasis Laravel</td>
+      </tr>
+      <tr>
+        <td>Point of Sale</td>
+        <td>Aplikasi kasir berbasis web dengan fitur multi outlet</td>
+      </tr>
+      <tr>
+        <td>Portfolio Pribadi</td>
+        <td>Website profil menggunakan HTML, CSS, dan JavaScript</td>
+      </tr>
     </table>
   </body>
 </html>
